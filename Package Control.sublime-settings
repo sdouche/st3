@@ -1,6 +1,33 @@
 {
 	"installed_packages":
 	[
-		"Package Syncing"
+		"Alignment",
+		"Anaconda",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Dart",
+		"dired",
+		"Emmet",
+		"Find++",
+		"FindKeyConflicts",
+		"Git",
+		"GoSublime",
+		"GotoDocumentation",
+		"Keymaps",
+		"Modific",
+		"Origami",
+		"Package Syncing",
+		"Project Manager",
+		"Rust",
+		"SideBarEnhancements",
+		"Sourcegraph",
+		"Sublime Files",
+		"sublime-github",
+		"Theme - Cobalt2",
+		"Theme - Soda",
+		"TodoReview",
+		"TrailingSpaces",
+		"WordHighlight"
 	]
 }
