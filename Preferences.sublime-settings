@@ -5,14 +5,14 @@
 // example, in Packages/Python/Python.sublime-settings for python files.
 {
     // Sets the colors used within the text area
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 
     // Note that the font_face and font_size are overridden in the platform
     // specific settings file, for example, "Preferences (Linux).sublime-settings".
     // Because of this, setting them here will have no effect: you must set them
     // in your User File Preferences.
-    "font_face": "",
-    "font_size": 10,
+    "font_face": "Monaco",
+    "font_size": 12,
 
     // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
     // "subpixel_antialias", "no_round" (OS X only), "gdi" (Windows only) and
@@ -32,13 +32,13 @@
     "margin": 4,
 
     // Fold buttons are the triangles shown in the gutter to fold regions of text
-    "fold_buttons": true,
+    "fold_buttons": false,
 
     // Hides the fold buttons unless the mouse is over the gutter
-    "fade_fold_buttons": true,
+    "fade_fold_buttons": false,
 
     // Columns in which to display vertical rulers
-    "rulers": [],
+    "rulers": [120],
 
     // Set to true to turn spell checking on by default
     "spell_check": false,
@@ -47,7 +47,7 @@
     "tab_size": 4,
 
     // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": false,
+    "translate_tabs_to_spaces": true,
 
     // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
     // backspace insert/delete up to the next tabstop
@@ -96,22 +96,22 @@
     // Set to true to draw a border around the visible rectangle on the minimap.
     // The color of the border will be determined by the "minimapBorder" key in
     // the color scheme
-    "draw_minimap_border": false,
+    "draw_minimap_border": true,
 
     // Always visualise the viewport on the minimap, as opposed to only
     // showing it on mouse over
     "always_show_minimap_viewport": false,
 
     // If enabled, will highlight any line with a caret
-    "highlight_line": false,
+    "highlight_line": true,
 
     // Valid values are "smooth", "phase", "blink" and "solid".
-    "caret_style": "smooth",
+    "caret_style": "solid",
 
     // These settings control the size of the caret
-    "caret_extra_top": 0,
-    "caret_extra_bottom": 0,
-    "caret_extra_width": 0,
+    "caret_extra_top": 1,
+    "caret_extra_bottom": 1,
+    "caret_extra_width": 1,
 
     // Set to false to disable underlining the brackets surrounding the caret
     "match_brackets": true,
@@ -130,7 +130,7 @@
 
     // Set to false to not highlight angle brackets. This only takes effect if
     // match_brackets is true
-    "match_brackets_angle": false,
+    "match_brackets_angle": true,
 
     // Enable visualization of the matching tag in HTML and XML
     "match_tags": true,
@@ -157,7 +157,7 @@
 
     // Set to "none" to turn off drawing white space, "selection" to draw only the
     // white space within the selection, and "all" to draw all white space
-    "draw_white_space": "selection",
+    "draw_white_space": "all",
 
     // Set to false to turn off the indentation guides.
     // The color and width of the indent guides may be customized by editing
@@ -171,11 +171,11 @@
     "indent_guide_options": ["draw_normal"],
 
     // Set to true to removing trailing white space on save
-    "trim_trailing_white_space_on_save": false,
+    "trim_trailing_white_space_on_save": true,
 
     // Set to true to ensure the last line of the file ends in a newline
     // character when saving
-    "ensure_newline_at_eof_on_save": false,
+    "ensure_newline_at_eof_on_save": true,
 
     // Set to true to automatically save files when switching to a different file
     // or application
@@ -202,7 +202,7 @@
     // Determines what character(s) are used to terminate each line in new files.
     // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
     // 'unix' (LF only).
-    "default_line_ending": "system",
+    "default_line_ending": "unix",
 
     // When enabled, pressing tab will insert the best matching completion.
     // When disabled, tab will only trigger snippets or insert a tab.
@@ -243,7 +243,7 @@
     // tab character - this allows tabs to be inserted when tab_completion is
     // enabled. Set this to true to make shift+tab always unindent, instead of
     // inserting tabs.
-    "shift_tab_unindent": false,
+    "shift_tab_unindent": true,
 
     // If true, the copy and cut commands will operate on the current line
     // when the selection is empty, rather than doing nothing.
@@ -268,7 +268,7 @@
     //
 
     // The theme controls the look of Sublime Text's UI (buttons, tabs, scroll bars, etc)
-    "theme": "Default.sublime-theme",
+    "theme": "Cobalt2.sublime-theme",
 
     // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
     // scroll slower, or set to larger than 1 to scroll faster
@@ -306,10 +306,10 @@
     "enable_tab_scrolling": true,
 
     // Display file encoding in the status bar
-    "show_encoding": false,
+    "show_encoding": true,
 
     // Display line endings in the status bar
-    "show_line_endings": false,
+    "show_line_endings": true,
 
     //
     // Application Behavior Settings
@@ -332,7 +332,7 @@
     // remember_full_screen will allow Sublime Text to start in full screen
     // mode if it was exited in full screen mode. When set to false, Sublime
     // Text will never start in full screen mode.
-    "remember_full_screen": false,
+    "remember_full_screen": true,
 
     // Always prompt before reloading a file, even if the file hasn't been
     // modified. The default behavior is to automatically reload a file if it
