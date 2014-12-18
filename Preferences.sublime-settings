@@ -105,6 +105,7 @@
 	"ignored_packages":
 	[
 		"Vintage"
+		"CSS",
 		"Character Table"
 	],
 	"indent_guide_options":
