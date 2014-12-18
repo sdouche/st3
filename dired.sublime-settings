@@ -1,0 +1,27 @@
+{
+  "dired_reuse_view": true,
+  "dired_show_parent": true, // double dot as first element of each folder
+  "dired_confirm_send2trash": true,
+  "dired_show_hidden_files": true,
+  "dired_hidden_files_patterns": [".*"],
+  "dired_hijack_new_window": false, // (ST3 Only) shows a filebrowser view in new window by default
+  "color_scheme": "Packages/FileBrowser/dired.hidden-tmTheme",
+  "line_numbers": true,
+  "margin": 0,
+  "word_wrap": false,
+  "rulers": [],
+  "spell_check": false,
+  "highlight_line": true,
+  "scroll_past_end": false,
+  "draw_indent_guides": false,
+  "fold_buttons": false,
+  "drag_text": false,
+  "tab_size": 3,
+
+  // Path to git executable.
+  // Wildcards are supported, e.g. if you use GitHub for Windows it would be:
+  //     "git_path": "~/Appdata/Local/GitHub/PortableGit_*/cmd/git.exe"
+  // To disable git integration set to empty string:
+  //     "git_path": ""
+  "git_path": "git"
+}
