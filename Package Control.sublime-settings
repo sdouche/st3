@@ -1,9 +1,13 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"Anaconda",
 		"BracketHighlighter",
+		"Character Table",
 		"Color Highlighter",
 		"ColorPicker",
 		"ColorSchemeSelector",
@@ -11,11 +15,12 @@
 		"Dart",
 		"dired",
 		"FileBrowser",
+		"Filter Lines",
 		"Find++",
-		"FindKeyConflicts",
 		"GhostText",
 		"Git",
 		"Godef",
+		"GoOracle",
 		"GoSublime",
 		"GotoDocumentation",
 		"HTML5",
@@ -23,9 +28,13 @@
 		"Language - French - Français",
 		"Modific",
 		"Origami",
+		"Package Control",
 		"Package Syncing",
 		"Project Manager",
+		"PyRefactor",
 		"Rust",
+		"RustAutoComplete",
+		"Seti_UI",
 		"SideBarEnhancements",
 		"Sourcegraph",
 		"sublime-github",
@@ -33,10 +42,12 @@
 		"SublimeLinter-contrib-golint",
 		"SublimeLinter-contrib-gotype",
 		"SublimeLinter-contrib-govet",
+		"SublimeLinter-contrib-rustc",
 		"Theme - Cobalt2",
 		"Theme - Soda",
 		"TodoReview",
 		"TrailingSpaces",
+		"Wombat Theme",
 		"WordHighlight"
 	]
 }
