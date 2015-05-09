@@ -104,8 +104,8 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"CSS",
-		"Vintage"
+		"Vintage",
+		"CSS"
 	],
 	"indent_guide_options":
 	[
@@ -153,19 +153,13 @@
 	"spell_check": false,
 	"tab_completion": true,
 	"tab_size": 4,
-	"theme": "Wombat.sublime-theme",
+	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
-	"wombat_color_blue": true,
-	"wombat_color_expanded_folder": true,
-	"wombat_dirty_bottom_bar": true,
-	"wombat_sidebar_tree_small": true,
-	"wombat_solid_current_tab": true,
-	"wombat_tabs_medium": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "true",
 	"wrap_width": 100
