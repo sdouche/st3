@@ -12,6 +12,7 @@
 		"ColorPicker",
 		"ColorSchemeSelector",
 		"CSS3",
+		"CTags",
 		"Dart",
 		"dired",
 		"FileBrowser",
@@ -19,6 +20,7 @@
 		"Find++",
 		"GhostText",
 		"Git",
+		"GitSavvy",
 		"Godef",
 		"GoOracle",
 		"GoSublime",
@@ -47,7 +49,6 @@
 		"Theme - Soda",
 		"TodoReview",
 		"TrailingSpaces",
-		"Wombat Theme",
 		"WordHighlight"
 	]
 }
