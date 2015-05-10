@@ -1,6 +1,6 @@
 {
-	"always_prompt_for_file_reload": false,
-	"always_show_minimap_viewport": false,
+	"always_prompt_for_file_reload": true,
+	"always_show_minimap_viewport": true,
 	"animation_enabled": true,
 	"atomic_save": true,
 	"auto_close_tags": true,
